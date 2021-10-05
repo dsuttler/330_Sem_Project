@@ -1,0 +1,197 @@
+{
+  "@type": "edu.odu.cs.cs350.JsonBuilder",
+  "htmlList": [
+    {
+      "@type": "edu.odu.cs.cs350.JsonHtml",
+      "fileName": "/src/home",
+      "numLocalImages": 5,
+      "numScriptsRef": 5,
+      "numIntraPageLinks": 2,
+      "numInterSiteLinks": 1,
+      "numExternalLinks": 2,
+      "cssUtilized": [
+        "main.css",
+        "navbar.css",
+        "footer.css"
+      ],
+      "localImages": [
+        "logo.jpg",
+        "puppies.png",
+        "apex-legends.jpg",
+        "dinos.jpg",
+        "olympus.jpg"
+      ],
+      "scriptsUtilized": [
+        "main.js",
+        "bootstrap4.js",
+        "login.js",
+        "yet-again.js",
+        "charts.js"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonHtml",
+      "fileName": "/src/about",
+      "numLocalImages": 3,
+      "numScriptsRef": 2,
+      "numIntraPageLinks": 2,
+      "numInterSiteLinks": 1,
+      "numExternalLinks": 2,
+      "cssUtilized": [
+        "main.css",
+        "navbar.css",
+        "footer.css"
+      ],
+      "localImages": [
+        "snowboarding.jpg",
+        "bierGood.jpg",
+        "logo.jpg"
+      ],
+      "scriptsUtilized": [
+        "bootstrap4.js",
+        "yet-again.js"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonHtml",
+      "fileName": "/src/contact-us",
+      "numLocalImages": 5,
+      "numScriptsRef": 3,
+      "numIntraPageLinks": 2,
+      "numInterSiteLinks": 1,
+      "numExternalLinks": 2,
+      "cssUtilized": [
+        "main.css",
+        "navbar.css",
+        "footer.css"
+      ],
+      "localImages": [
+        "logo.jpg",
+        "puppies.png",
+        "apex-legends.jpg",
+        "bierGood.jpg",
+        "my_image.png"
+      ],
+      "scriptsUtilized": [
+        "bootstrap4.js",
+        "main.js",
+        "yet-again.js"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonHtml",
+      "fileName": "/src/login",
+      "numLocalImages": 1,
+      "numScriptsRef": 1,
+      "numIntraPageLinks": 2,
+      "numInterSiteLinks": 1,
+      "numExternalLinks": 2,
+      "cssUtilized": [
+        "main.css",
+        "navbar.css",
+        "footer.css"
+      ],
+      "localImages": [
+        "logo.jpg"
+      ],
+      "scriptsUtilized": [
+        "login.js"
+      ]
+    }
+  ],
+  "imageList": [
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "logo.jpg",
+      "numPagesDisplayed": 4,
+      "pageList": [
+        "/src/home",
+        "/src/about",
+        "/src/contact-us",
+        "/src/login"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "puppies.png",
+      "numPagesDisplayed": 2,
+      "pageList": [
+        "/src/home",
+        "/src/contact-us"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "apex-legends.jpg",
+      "numPagesDisplayed": 2,
+      "pageList": [
+        "/src/home",
+        "/src/contact-us"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "dinos.jpg",
+      "numPagesDisplayed": 1,
+      "pageList": [
+        "/src/home"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "olympus.jpg",
+      "numPagesDisplayed": 1,
+      "pageList": [
+        "/src/home"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "snowboarding.jpg",
+      "numPagesDisplayed": 1,
+      "pageList": [
+        "/src/about"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "bierGood.jpg",
+      "numPagesDisplayed": 2,
+      "pageList": [
+        "/src/about",
+        "/src/contact-us"
+      ]
+    },
+    {
+      "@type": "edu.odu.cs.cs350.JsonImage",
+      "fileName": "my_image.png",
+      "numPagesDisplayed": 1,
+      "pageList": [
+        "/src/contact-us"
+      ]
+    }
+  ],
+  "frList": [
+    {
+      "@type": "edu.odu.cs.cs350.FileResource",
+      "name": "allFiles.zip",
+      "localPath": "/src/about",
+      "size": 3,
+      "category": "Archive"
+    },
+    {
+      "@type": "edu.odu.cs.cs350.FileResource",
+      "name": "welcomeVideo.mp4",
+      "localPath": "/src/home",
+      "size": 56,
+      "category": "Video"
+    },
+    {
+      "@type": "edu.odu.cs.cs350.FileResource",
+      "name": "music.mp3",
+      "localPath": "/src/login",
+      "size": 6334,
+      "category": "Audio"
+    }
+  ]
+}
